@@ -31,10 +31,9 @@ Este repositorio forma parte del marco docente de estructura de datos y algoritm
 ## Miembros
 
 Los estudiantes editan esta sección para agregar sus nombres, correos electrónicos de Uniandes y especificar qué funcionalidad de proyecto implementarán.
-
-1. Nombre del estudiante No. 1, Correo electrónico del estudiante No. 1 Uniandes, Funcionalidad propiedad del estudiante No. 1.
-1. Nombre del estudiante No. 2, Correo electrónico del estudiante No. 2 Uniandes, Funcionalidad propiedad del estudiante No. 2.
-1. Nombre del estudiante No. 3, Correo electrónico del estudiante No. 3 Uniandes, Funcionalidad propiedad del estudiante No. 3.
+1. Frank Yasser Ramírez Marín fy.ramirez@uniandes.edu.co, 202215747 
+2. José Gabriel Bernal Cárdenas jg.bernalc1@uniandes.edu.co, 202213421 
+3. Juan Camilo Gómez Uribe j.gomezu@uniandes.edu.co, 202220238
 
 [Volver al inicio](#sample-algorithm)
 
