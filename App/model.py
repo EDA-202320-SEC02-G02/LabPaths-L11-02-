@@ -32,6 +32,8 @@ from DISClib.Algorithms.Graphs import dijsktra as djk
 # TODO Lab 11, agregar importaciones dfs y bfs
 from DISClib.Utils import error as error
 assert config
+from DISClib.Algorithms.Graphs import bfs
+from DISClib.Algorithms.Graphs import dfs
 
 """
 En este archivo definimos los TADs que vamos a usar y las operaciones
@@ -236,10 +238,10 @@ def hasSearchPath(analyzer, destStation, method):
     """
     # TODO Lab 11, ejecutar hasPathTo por dfs
     if method == "dfs":
-        return None
+        return dfs.hasPathTo(analyzer,destStation)
     # TODO Lab 11, ejecutar hasPathTo por bfs
     elif method == "bfs":
-        return None
+        return bfs.hasPathTo(analyzer,destStation)
 
 
 def searchPathTo(analyzer, destStation, method):

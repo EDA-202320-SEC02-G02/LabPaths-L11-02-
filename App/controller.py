@@ -143,7 +143,9 @@ def hasSearchPath(analyzer, destStation, searchMethod):
     el metodo de busqueda ("bfs" o "dfs")
     """
     # TODO Lab 11, conectar con la funcion del model hasSearchPath
-    return None
+    
+    return model.hasSearchPath(analyzer, destStation,searchMethod)
+
 
 
 def searchPathTo(analyzer, destStation, searchMethod):

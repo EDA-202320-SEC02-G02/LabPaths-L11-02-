@@ -127,8 +127,13 @@ def optionNine(cont, destStation, searchMethod):
     # TODO Lab 11, conectar con la funcion del controller hasSearchPath
     haspath = None
     print(haspath)
+    if searchMethod==1:
+        searchMethod="bfs"
+    elif  searchMethod==2:
+        searchMethod="dfs"
 
-
+    print(controller.hasSearchPath(cont,destStation,searchMethod))
+    
 def optionTen(cont, destStation, searchMethod):
     # TODO Lab 11, conectar con la funcion del controller searchPathTo
     path = None
@@ -181,7 +186,10 @@ def thread_cycle():
 
         elif int(inputs) == 9:
             # TODO Lab 11, completar inputs opt 9, destStation
-            pass
+            destStation = input("Estación destino (Ej: 15151-10): ")
+            searchMethod =int(input("ingrese 1 si quiere buscar por bfs y 2 si quiere buscar por dsf"))
+            
+            optionNine(cont,destStation,searchMethod)
 
         elif int(inputs) == 10:
             # TODO Lab 11, completar inputs opt 10, destStation
