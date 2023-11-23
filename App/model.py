@@ -260,10 +260,10 @@ def searchPathTo(analyzer, destStation, method):
     path = None
     # TODO Lab 11, ejecutar pathTo por dfs
     if method == "dfs":
-        pass
+        return dfs.pathTo(analyzer,destStation)
     # TODO Lab 11, ejecutar pathTo por bfs
     elif method == "bfs":
-        pass
+        return bfs.pathTo(analyzer,destStation)
     return path
 
 
